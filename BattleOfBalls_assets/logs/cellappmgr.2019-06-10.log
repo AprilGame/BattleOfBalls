@@ -1,0 +1,38 @@
+  INFO root [2019-06-10 19:38:57,622] - 
+  INFO root [2019-06-10 19:38:57,625] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-06-10 19:38:57,627] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2019-06-10 19:38:57,627] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/server/;D:/kbengine/server/scripts/;D:/kbengine/server/res/
+  INFO root [2019-06-10 19:38:57,627] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2019-06-10 19:38:57,715] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:51538 )
+  INFO root [2019-06-10 19:38:57,716] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:51538, SOMAXCONN=5.
+  INFO root [2019-06-10 19:38:57,716] - server-configs:
+  INFO root [2019-06-10 19:38:57,716] - 	internalTcpAddr : 192.168.56.1:51538
+  INFO root [2019-06-10 19:38:57,717] - 	componentID : 6000
+  WARN root [2019-06-10 19:38:57,720] - invalid UID(0) <= 0, please check UID for environment! automatically set to 3960.
+  INFO root [2019-06-10 19:38:59,231] - ---- cellappmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: AFC10615FCF531D416E7A56B687CCF1A. Config: Debug X86. Built: 09:54:16 May  8 2019. AppID: 6000. UID: 3960. PID: 9420 ----
+  INFO root [2019-06-10 19:38:59,232] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [2019-06-10 19:38:59,232] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-06-10 19:38:59,232] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-06-10 19:38:59,757] - ---- cellappmgr is running ----
+ DEBUG root [2019-06-10 19:38:59,757] - Components::process(): Request for the process of identity...
+  INFO root [2019-06-10 19:39:06,935] - Components::findComponents: find logger(1)...
+  INFO root [2019-06-10 19:39:06,942] - Components::findComponents: found logger, addr:192.168.56.1:51544
+  INFO root [2019-06-10 19:39:06,942] - Components::addComponent: reset orderLog, uid=3960!
+  INFO root [2019-06-10 19:39:06,943] - Components::addComponent[logger], uid=3960, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-06-10 19:39:06,944] - Components::findComponents: find dbmgr(2)...
+  WARN root [2019-06-10 19:39:08,049] - Forwarding logs to logger[192.168.56.1:51544/0/0/0]...
+ ERROR root [2019-06-10 19:39:38,158] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5625409991, lastReceivedTime=5602006999, inactivityExceptionPeriod=134887628)
+  INFO root [2019-06-10 19:39:38,169] - The following logs sent to logger failed:
+  WARN root [2019-06-10 19:39:38,169] - ==> [2019-06-10 19:39:38 155] TCPPacketReceiver::processPendingEvents(192.168.56.1:51544): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-10 19:39:38,169] - ==> [2019-06-10 19:39:38 160] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5625409991, lastReceivedTime=5602006999, inactivityExceptionPeriod=134887628)
+  WARN root [2019-06-10 19:39:38,281] - TCPPacketReceiver::processPendingEvents(192.168.56.1:51542): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-06-10 19:39:38,283] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=5625689926, lastReceivedTime=5602000542, inactivityExceptionPeriod=134887628)
+  INFO root [2019-06-10 19:39:38,289] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2019-06-10 19:39:38,294] - Shutdowner::onShutdown: shutting down
+  INFO root [2019-06-10 19:39:38,295] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2019-06-10 19:39:38,295] - ThreadPool::destroy(): starting size 2.

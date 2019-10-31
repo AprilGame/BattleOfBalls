@@ -1,0 +1,43 @@
+<root>
+  <Properties>
+    <!--实体类型-->
+    <enttiyType>
+      <Type>    INT16   </Type>
+      <Flags>   CELL_PUBLIC   </Flags>
+      <Default>   1     </Default>
+    </enttiyType>
+    
+    <!--预制体类型-->
+    <modelType>
+      <Type>    INT32   </Type>
+      <Flags>   ALL_CLIENTS   </Flags>
+      <Default>   0     </Default>
+    </modelType>
+    
+    <!--食物的ID-->
+    <foodID>
+      <Type>    UINT64    </Type>
+      <Flags>   ALL_CLIENTS   </Flags>
+    </foodID>
+    
+    <!--食物重量-->
+    <foodMass>
+      <Type>    INT32    </Type>
+      <Flags>   CELL_PUBLIC   </Flags>
+      <Default>   1       </Default>
+    </foodMass>
+  </Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+    <!--返回实体类型-->
+    <returnType>
+    </returnType>
+	</CellMethods>
+
+</root>

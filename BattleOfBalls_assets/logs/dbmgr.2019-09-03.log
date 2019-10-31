@@ -1,0 +1,188 @@
+  INFO root [2019-09-03 21:24:31,598] - 
+  INFO root [2019-09-03 21:24:31,598] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-03 21:24:31,859] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2019-09-03 21:24:31,859] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [2019-09-03 21:24:31,859] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2019-09-03 21:24:31,939] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:52649 )
+  INFO root [2019-09-03 21:24:31,939] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:52649, SOMAXCONN=5.
+  INFO root [2019-09-03 21:24:31,939] - server-configs:
+  INFO root [2019-09-03 21:24:31,939] - 	internalTcpAddr : 192.168.56.1:52649
+  INFO root [2019-09-03 21:24:31,939] - 	componentID : 4000
+  WARN root [2019-09-03 21:24:31,939] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [2019-09-03 21:24:32,139] - ---- dbmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X86. Built: 09:55:16 May  8 2019. AppID: 4000. UID: 2082. PID: 5400 ----
+  INFO root [2019-09-03 21:24:32,139] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [2019-09-03 21:24:32,209] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-03 21:24:32,209] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-03 21:24:33,459] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-03 21:24:33,459] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-03 21:24:34,069] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+S_INFO root [2019-09-03 21:24:34,101] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-09-03 21:24:34,119] - TelnetServer server is running on port 32000
+  INFO root [2019-09-03 21:24:34,149] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-09-03 21:24:34,777] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+23AFC77601A1837A2254DA78C9FF315C44A226B82FE71BD0A23137864F6FEF6B6EED4CB78D544E28BC39D2C0682E6225F71BD40972AB024A7A22748C4374ED9D48784F32ACDD4B92B7C01DF51DFC436776AC142AAEC22895FDD9839FD366634F439C208969E04BCA3D7202262EBB1AED1C16F708F9690C8FCF57C53630C24533
+ DEBUG root [2019-09-03 21:24:35,003] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:24:36,108] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-09-03 21:24:36,108] - DBUtil::createInterface[0x1bbee0c]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+  INFO root [2019-09-03 21:24:36,379] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-03 21:24:36,379] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-09-03 21:24:36,379] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:24:36,382] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:24:36,382] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:24:36,382] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:24:36,382] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:24:36,509] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:24:36,509] - DBThread::onStart(): 0x20c9430!
+ DEBUG root [2019-09-03 21:24:36,649] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:24:36,649] - DBThread::onStart(): 0x20c8770!
+ DEBUG root [2019-09-03 21:24:36,769] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:24:36,769] - DBThread::onStart(): 0x20c8990!
+  INFO root [2019-09-03 21:24:36,939] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-03 21:24:36,939] - DBInterfaceMysql::checkErrors: not found Account table(dbInterface=default), reset kbe_* table...
+ DEBUG root [2019-09-03 21:24:37,053] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:24:37,059] - DBThread::onStart(): 0x20c8880!
+ DEBUG root [2019-09-03 21:24:37,210] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:24:37,210] - DBThread::onStart(): 0x20c87f8!
+  WARN root [2019-09-03 21:24:38,653] - DBInterfaceMysql::checkErrors: reset kbe_* table(dbInterface=default) end!
+  INFO root [2019-09-03 21:24:38,939] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:24:38,939] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:24:40,689] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-03 21:24:40,873] - DBTask::process(): took 1.80 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, serverGroupID) values(1567517078,2082) ON DUPLICATE KEY UPDATE heartbeatTime=1567517078)
+  WARN root [2019-09-03 21:24:40,873] - DBTask::process(): took 2.06 seconds
+sql:(select distinct(serverGroupID) from kbe_entitylog)
+ DEBUG root [2019-09-03 21:24:43,609] - syncToDB(): Account->sm_autoLoad(tinyint not null DEFAULT 0).
+  INFO root [2019-09-03 21:24:43,652] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-03 21:24:43,652] - DBTask::process(): took 4.97 seconds
+sql:(CREATE TABLE IF NOT EXISTS kbe_accountinfos (`accountName` varchar(128) not null, PRIMARY KEY idKey (`accountName`),`password` varchar(255) not null,`bindata` blob,`email` varchar(191) not null, UNIQUE KEY `email` (`email`),`entityDBID` bigint(20) unsigned not null DEFAULT 0, UNIQUE KEY `entityDBID` (`entityDBID`),`flags` int unsigned not null DEFAULT 0,`deadline` bigint(20) not null DEFAULT 0,`regtime` bigint(20) not null DEFAULT 0,`lasttime` bigint(20) not null DEFAULT 0,`numlogin` int unsigned not null DEFAULT 0)ENGINE=InnoDB)
+  INFO root [2019-09-03 21:24:43,753] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:24:43,803] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:24:43,803] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:24:43,803] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-03 21:24:43,803] - DBTask::process(): took 5.12 seconds
+sql:(delete from kbe_email_verification where logtime<1567513483 and type=3)
+  INFO root [2019-09-03 21:24:45,352] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-03 21:24:45,889] - DBTask::process(): took 7.21 seconds
+sql:(show index from tbl_Account)
+ DEBUG root [2019-09-03 21:24:45,919] - DBInterfaceMysql::dropEntityTableFromDB: tbl_avatar.
+  INFO root [2019-09-03 21:24:46,949] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-03 21:24:46,949] - DBInterfaceMysql::dropEntityTableFromDB: tbl_food.
+  INFO root [2019-09-03 21:24:48,049] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-03 21:24:48,049] - DBInterfaceMysql::dropEntityTableFromDB: tbl_halls.
+  INFO root [2019-09-03 21:24:48,819] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-03 21:24:48,819] - DBInterfaceMysql::dropEntityTableFromDB: tbl_room.
+  INFO root [2019-09-03 21:24:49,323] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-03 21:24:49,329] - DBInterfaceMysql::dropEntityTableFromDB: tbl_smash.
+  INFO root [2019-09-03 21:24:49,623] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-03 21:24:49,623] - d:\kbengine\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 15.56 seconds
+  INFO root [2019-09-03 21:24:50,163] - ---- dbmgr is running ----
+ DEBUG root [2019-09-03 21:24:50,199] - Components::process(): Request for the process of identity...
+  INFO root [2019-09-03 21:24:56,543] - ServerApp::onRegisterNewApp: uid:2082, username:error_name, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-09-03 21:24:56,543] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [2019-09-03 21:24:56,543] - Components::addComponent[interfaces], uid=2082, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-09-03 21:24:56,543] - ServerApp::onRegisterNewApp: uid:2082, username:error_name, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:52644, extaddr:nonsupport, extport:0,  from 192.168.56.1:52693/0/0/0.
+  INFO root [2019-09-03 21:24:56,543] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [2019-09-03 21:24:56,543] - Components::addComponent[baseappmgr], uid=2082, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-09-03 21:24:56,543] - ServerApp::onRegisterNewApp: uid:2082, username:error_name, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:52650, extaddr:192.168.56.1, extport:20013,  from 192.168.56.1:52695/0/0/0.
+  INFO root [2019-09-03 21:24:56,543] - Components::addComponent[loginapp], uid=2082, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+  INFO root [2019-09-03 21:24:56,543] - ServerApp::onRegisterNewApp: uid:2082, username:error_name, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:52645, extaddr:nonsupport, extport:0,  from 192.168.56.1:52697/0/0/0.
+  INFO root [2019-09-03 21:24:56,543] - Components::addComponent[cellappmgr], uid=2082, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+  INFO root [2019-09-03 21:24:56,909] - ServerApp::onRegisterNewApp: uid:2082, username:error_name, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:52642, extaddr:192.168.56.1, extport:20015,  from 192.168.56.1:52699/0/0/0.
+  INFO root [2019-09-03 21:24:56,909] - Components::addComponent[baseapp], uid=2082, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+  INFO root [2019-09-03 21:24:57,549] - Components::findComponents: find logger(1)...
+  INFO root [2019-09-03 21:24:57,629] - Components::findComponents: found logger, addr:192.168.56.1:52648
+  INFO root [2019-09-03 21:24:57,629] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=5, grouporderid=1, totalcount=1
+  WARN root [2019-09-03 21:24:57,629] - Forwarding logs to logger[192.168.56.1:52648/0/0/0]...
+ ERROR root [2019-09-03 21:25:19,721] - DBTaskAccountLogin::db_thread_process(): not found account[111], login failed!
+ ERROR root [2019-09-03 21:36:03,748] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=270510433222, lastReceivedTime=270504686533, inactivityExceptionPeriod=134884383)
+  INFO root [2019-09-03 21:36:03,758] - The following logs sent to logger failed:
+  WARN root [2019-09-03 21:36:03,758] - ==> [2019-09-03 21:36:03 751] TCPPacketReceiver::processPendingEvents(192.168.56.1:52648): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-09-03 21:36:03,758] - ==> [2019-09-03 21:36:03 753] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=270510433222, lastReceivedTime=270504686533, inactivityExceptionPeriod=134884383)
+  INFO root [2019-09-03 21:36:05,682] - 
+  INFO root [2019-09-03 21:36:05,688] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2019-09-03 21:36:05,688] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2019-09-03 21:36:05,688] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [2019-09-03 21:36:05,688] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2019-09-03 21:36:05,708] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:52855 )
+  INFO root [2019-09-03 21:36:05,712] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:52855, SOMAXCONN=5.
+  INFO root [2019-09-03 21:36:05,712] - server-configs:
+  INFO root [2019-09-03 21:36:05,712] - 	internalTcpAddr : 192.168.56.1:52855
+  INFO root [2019-09-03 21:36:05,712] - 	componentID : 4000
+  WARN root [2019-09-03 21:36:05,712] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [2019-09-03 21:36:07,232] - ---- dbmgr Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 11178A1C367680938C8E416B64844ACD. Config: Debug X86. Built: 09:55:16 May  8 2019. AppID: 4000. UID: 2082. PID: 7596 ----
+  INFO root [2019-09-03 21:36:07,232] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [2019-09-03 21:36:07,232] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-03 21:36:07,232] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2019-09-03 21:36:07,442] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [2019-09-03 21:36:07,442] - Script::install(): KBExtra is successfully!
+  INFO root [2019-09-03 21:36:07,538] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+S_INFO root [2019-09-03 21:36:07,540] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2019-09-03 21:36:07,540] - TelnetServer server is running on port 32000
+  INFO root [2019-09-03 21:36:07,543] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2019-09-03 21:36:07,778] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+579C20C2779E22B1677777AD56D702BF3985B5D95A715B0D6657B17EFD6F6D48F1AFA308D1A7D6208DC114F5704451E4D80F0196C63AA47E8E7B959E50477BDE84906ABE2C13B40F819E69A2D0E07C9F719DB24437991D5A8AD1822A1F5585B83BA271D07E5343B5CA46491BB483378A3AF36AD21DCB8CE446A58DB225CA6A9B
+ DEBUG root [2019-09-03 21:36:07,783] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:36:08,032] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2019-09-03 21:36:08,032] - DBUtil::createInterface[0x1bbeff4]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+  INFO root [2019-09-03 21:36:08,032] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2019-09-03 21:36:08,032] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2019-09-03 21:36:08,032] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:36:08,032] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:36:08,032] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:36:08,032] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:36:08,032] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2019-09-03 21:36:08,140] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:36:08,140] - DBThread::onStart(): 0x1c9b88!
+ DEBUG root [2019-09-03 21:36:08,212] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:36:08,212] - DBThread::onStart(): 0x1c9f40!
+ DEBUG root [2019-09-03 21:36:08,278] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:36:08,282] - DBThread::onStart(): 0x1ca160!
+  INFO root [2019-09-03 21:36:08,341] - DBInterfaceMysql::query: successfully!
+ DEBUG root [2019-09-03 21:36:08,412] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:36:08,412] - DBThread::onStart(): 0x1c9a78!
+ DEBUG root [2019-09-03 21:36:08,498] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2019-09-03 21:36:08,498] - DBThread::onStart(): 0x1ca2f8!
+  INFO root [2019-09-03 21:36:08,568] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:36:08,568] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:36:08,602] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:36:08,602] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:36:08,619] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-03 21:36:08,627] - DBTask::process(): took 0.29 seconds
+sql:(select distinct(serverGroupID) from kbe_entitylog)
+  INFO root [2019-09-03 21:36:08,658] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:36:08,658] - DBInterfaceMysql::query: successfully!
+  INFO root [2019-09-03 21:36:08,658] - DBInterfaceMysql::query: successfully!
+  WARN root [2019-09-03 21:36:08,722] - DBTask::process(): took 0.38 seconds
+sql:(insert into kbe_serverlog (heartbeatTime, serverGroupID) values(1567517768,2082) ON DUPLICATE KEY UPDATE heartbeatTime=1567517768)
+  WARN root [2019-09-03 21:36:08,768] - DBTask::process(): took 0.42 seconds
+sql:(show index from tbl_Account)
+  WARN root [2019-09-03 21:36:08,798] - d:\kbengine\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 1.26 seconds
+  INFO root [2019-09-03 21:36:09,152] - ---- dbmgr is running ----
+ DEBUG root [2019-09-03 21:36:09,152] - Components::process(): Request for the process of identity...
+  INFO root [2019-09-03 21:36:15,418] - ServerApp::onRegisterNewApp: uid:2082, username:error_name, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.56.1, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+  INFO root [2019-09-03 21:36:15,418] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [2019-09-03 21:36:15,418] - Components::addComponent[interfaces], uid=2082, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2019-09-03 21:36:16,438] - Components::findComponents: find logger(1)...
+  INFO root [2019-09-03 21:36:16,538] - Components::findComponents: found logger, addr:192.168.56.1:52850
+  INFO root [2019-09-03 21:36:16,542] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [2019-09-03 21:36:16,542] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2019-09-03 21:36:16,542] - Forwarding logs to logger[192.168.56.1:52850/0/0/0]...
+ ERROR root [2019-09-03 21:46:35,245] - DBTaskAccountLogin::db_thread_process(): not found account[111], login failed!
+ ERROR root [2019-09-03 21:47:32,432] - DBTaskAccountLogin::db_thread_process(): not found account[11], login failed!
+ ERROR root [2019-09-03 21:50:00,143] - DBTaskAccountLogin::db_thread_process(): not found account[111], login failed!
+ ERROR root [2019-09-03 21:50:26,960] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=272452675575, lastReceivedTime=272404611300, inactivityExceptionPeriod=134884271)
+  INFO root [2019-09-03 21:50:26,960] - The following logs sent to logger failed:
+  WARN root [2019-09-03 21:50:26,960] - ==> [2019-09-03 21:50:26 967] TCPPacketReceiver::processPendingEvents(192.168.56.1:52850): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2019-09-03 21:50:26,960] - ==> [2019-09-03 21:50:26 971] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=272452675575, lastReceivedTime=272404611300, inactivityExceptionPeriod=134884271)

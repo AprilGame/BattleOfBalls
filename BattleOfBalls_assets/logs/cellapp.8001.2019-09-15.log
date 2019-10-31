@@ -1,0 +1,1990 @@
+  INFO root [0x00002210] [2019-09-15 09:35:31,880] - 
+  INFO root [0x00002210] [2019-09-15 09:35:31,883] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002210] [2019-09-15 09:35:31,884] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00002210] [2019-09-15 09:35:31,884] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x00002210] [2019-09-15 09:35:31,884] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00002210] [2019-09-15 09:35:31,905] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56379 )
+  INFO root [0x00002210] [2019-09-15 09:35:31,905] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56379, SOMAXCONN=5.
+  INFO root [0x00002210] [2019-09-15 09:35:31,905] - server-configs:
+  INFO root [0x00002210] [2019-09-15 09:35:31,906] - 	gameUpdateHertz : 10
+  INFO root [0x00002210] [2019-09-15 09:35:31,906] - 	defaultViewRadius : 80
+  INFO root [0x00002210] [2019-09-15 09:35:31,906] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002210] [2019-09-15 09:35:31,906] - 	entryScriptFile : kbemain
+  INFO root [0x00002210] [2019-09-15 09:35:31,906] - 	internalTcpAddr : 192.168.56.1:56379
+  INFO root [0x00002210] [2019-09-15 09:35:31,906] - 	componentID : 8001
+  WARN root [0x00002210] [2019-09-15 09:35:31,956] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00002210] [2019-09-15 09:35:32,075] - Components::findLogger: found logger, addr:192.168.56.1:56374
+  INFO root [0x00002210] [2019-09-15 09:35:32,075] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00002210] [2019-09-15 09:35:32,075] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002210] [2019-09-15 09:35:32,083] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 16204 ----
+  INFO root [0x00002210] [2019-09-15 09:35:32,098] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00002210] [2019-09-15 09:35:32,101] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002210] [2019-09-15 09:35:32,101] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002210] [2019-09-15 09:35:32,339] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00002210] [2019-09-15 09:35:32,339] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002210] [2019-09-15 09:35:32,464] - loaded entity-script:Account(1).
+ DEBUG root [0x00002210] [2019-09-15 09:35:32,466] - loaded entity-script:Room(3).
+ DEBUG root [0x00002210] [2019-09-15 09:35:32,466] - loaded entity-script:Food(4).
+ DEBUG root [0x00002210] [2019-09-15 09:35:32,467] - loaded entity-script:Smash(5).
+  INFO root [0x00002210] [2019-09-15 09:35:32,467] - TelnetServer server is running on port 50000
+  INFO root [0x00002210] [2019-09-15 09:35:32,927] - ---- cellapp is running ----
+ DEBUG root [0x00002210] [2019-09-15 09:35:32,927] - Components::process(): Request for the process of identity...
+  WARN root [0x00002210] [2019-09-15 09:35:39,036] - Forwarding logs to logger[192.168.56.1:56374/0/0/0]...
+ ERROR root [0x00002210] [2019-09-15 09:37:03,073] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=179726959357, lastReceivedTime=179723678749, inactivityExceptionPeriod=134886957)
+  INFO root [0x00002210] [2019-09-15 09:37:03,076] - The following logs sent to logger failed:
+  WARN root [0x00002210] [2019-09-15 09:37:03,076] - ==> [2019-09-15 09:37:03 070] TCPPacketReceiver::processPendingEvents(192.168.56.1:56374): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002210] [2019-09-15 09:37:03,077] - ==> [2019-09-15 09:37:03 074] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=179726959357, lastReceivedTime=179723678749, inactivityExceptionPeriod=134886957)
+  WARN root [0x00002210] [2019-09-15 09:37:03,176] - TCPPacketReceiver::processPendingEvents(192.168.56.1:56375): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002210] [2019-09-15 09:37:03,177] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=179727192224, lastReceivedTime=179723783789, inactivityExceptionPeriod=134886957)
+  INFO root [0x00002210] [2019-09-15 09:37:03,178] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002210] [2019-09-15 09:37:03,179] - Shutdowner::onShutdown: shutting down
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,203] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,206] - NameError: name 'room' is not defined
+  INFO root [0x00002210] [2019-09-15 09:37:03,237] - Shutdowner::onShutdownEnd: shutting down
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,243] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,245] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,248] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,250] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,254] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,256] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,257] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,258] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,259] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,260] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,267] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,268] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,280] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,283] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,286] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,287] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,290] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,291] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,294] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,295] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,299] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,301] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,303] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,305] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,306] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,307] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,309] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,310] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,311] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,312] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,318] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,320] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,328] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,329] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,348] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,351] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,353] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,354] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,356] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,356] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,358] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,359] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,360] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,362] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,364] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,367] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,368] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,369] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,371] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,372] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,374] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,374] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,376] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,377] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,397] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,400] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,409] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,410] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,412] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,413] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,417] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,422] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,424] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,425] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,427] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,428] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,429] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,431] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,434] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,436] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,438] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,440] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,442] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,443] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,445] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,446] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,473] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,475] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,476] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,477] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,479] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,479] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,486] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,487] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,489] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,490] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,492] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,493] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,495] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,498] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,502] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,503] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,505] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,506] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,508] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,510] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,530] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,534] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,555] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,557] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,559] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,560] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,562] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,563] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,565] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,570] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,572] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,573] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,575] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,576] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,577] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,578] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,580] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,581] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,586] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,588] - NameError: name 'room' is not defined
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,591] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002210] [2019-09-15 09:37:03,592] - NameError: name 'room' is not defined
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,601] - Food::~Food(): 1
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,602] - Food::~Food(): 41
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,603] - Room::~Room(): 2004
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,603] - Smash::~Smash(): 105
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,603] - Food::~Food(): 131
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,603] - Food::~Food(): 292
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,603] - Account::~Account(): 2002
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,603] - Food::~Food(): 3
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,603] - Food::~Food(): 2
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,604] - Food::~Food(): 489
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,604] - Food::~Food(): 34
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,604] - Food::~Food(): 393
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,604] - Account::~Account(): 2003
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,604] - Food::~Food(): 4
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,605] - Food::~Food(): 483
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,605] - Food::~Food(): 5
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,605] - Food::~Food(): 6
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,605] - Food::~Food(): 493
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,605] - Food::~Food(): 7
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,605] - Food::~Food(): 8
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,606] - Food::~Food(): 503
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,606] - Food::~Food(): 9
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,606] - Food::~Food(): 10
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,606] - Food::~Food(): 497
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,606] - Food::~Food(): 11
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,607] - Food::~Food(): 12
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,607] - Food::~Food(): 491
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,607] - Food::~Food(): 13
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,607] - Food::~Food(): 14
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,607] - Food::~Food(): 501
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,607] - Food::~Food(): 15
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,608] - Food::~Food(): 511
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,608] - Food::~Food(): 16
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,608] - Food::~Food(): 17
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,608] - Food::~Food(): 18
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,608] - Food::~Food(): 505
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,609] - Food::~Food(): 19
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,609] - Food::~Food(): 20
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,609] - Food::~Food(): 499
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,609] - Food::~Food(): 21
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,609] - Food::~Food(): 22
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,609] - Food::~Food(): 509
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,610] - Food::~Food(): 23
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,610] - Food::~Food(): 24
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,610] - Food::~Food(): 391
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,610] - Food::~Food(): 25
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,610] - Food::~Food(): 26
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,610] - Food::~Food(): 385
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,611] - Food::~Food(): 27
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,611] - Food::~Food(): 28
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,611] - Food::~Food(): 507
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,611] - Food::~Food(): 29
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,612] - Food::~Food(): 30
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,612] - Food::~Food(): 389
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,612] - Food::~Food(): 31
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,612] - Food::~Food(): 32
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,612] - Food::~Food(): 399
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,616] - Food::~Food(): 33
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,618] - Food::~Food(): 35
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,618] - Food::~Food(): 36
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,618] - Food::~Food(): 387
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,618] - Food::~Food(): 37
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,618] - Food::~Food(): 38
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,619] - Food::~Food(): 397
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,619] - Food::~Food(): 39
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,619] - Food::~Food(): 40
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,619] - Food::~Food(): 407
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,619] - Food::~Food(): 42
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,620] - Food::~Food(): 401
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,620] - Food::~Food(): 43
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,620] - Food::~Food(): 44
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,620] - Food::~Food(): 395
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,620] - Food::~Food(): 45
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,620] - Food::~Food(): 46
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,621] - Food::~Food(): 405
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,621] - Food::~Food(): 47
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,621] - Food::~Food(): 48
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,621] - Food::~Food(): 415
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,621] - Food::~Food(): 49
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,621] - Food::~Food(): 50
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,622] - Food::~Food(): 409
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,622] - Food::~Food(): 51
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,622] - Food::~Food(): 52
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,622] - Food::~Food(): 403
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,623] - Food::~Food(): 53
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,623] - Food::~Food(): 54
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,623] - Food::~Food(): 413
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,623] - Food::~Food(): 55
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,623] - Food::~Food(): 56
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,624] - Food::~Food(): 423
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,624] - Food::~Food(): 57
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,624] - Food::~Food(): 58
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,624] - Food::~Food(): 417
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,624] - Food::~Food(): 59
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,624] - Food::~Food(): 60
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,624] - Food::~Food(): 411
+ DEBUG root [0x00002210] [2019-09-15 09:37:03,625] - Food::~Food(): 61
+  INFO root [0x00003b78] [2019-09-15 09:39:20,283] - 
+  INFO root [0x00003b78] [2019-09-15 09:39:20,294] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003b78] [2019-09-15 09:39:20,299] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00003b78] [2019-09-15 09:39:20,300] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x00003b78] [2019-09-15 09:39:20,300] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00003b78] [2019-09-15 09:39:20,331] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56420 )
+  INFO root [0x00003b78] [2019-09-15 09:39:20,332] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56420, SOMAXCONN=5.
+  INFO root [0x00003b78] [2019-09-15 09:39:20,332] - server-configs:
+  INFO root [0x00003b78] [2019-09-15 09:39:20,332] - 	gameUpdateHertz : 10
+  INFO root [0x00003b78] [2019-09-15 09:39:20,332] - 	defaultViewRadius : 80
+  INFO root [0x00003b78] [2019-09-15 09:39:20,332] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003b78] [2019-09-15 09:39:20,332] - 	entryScriptFile : kbemain
+  INFO root [0x00003b78] [2019-09-15 09:39:20,332] - 	internalTcpAddr : 192.168.56.1:56420
+  INFO root [0x00003b78] [2019-09-15 09:39:20,332] - 	componentID : 8001
+  WARN root [0x00003b78] [2019-09-15 09:39:20,336] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00003b78] [2019-09-15 09:39:21,843] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 68 ----
+  INFO root [0x00003b78] [2019-09-15 09:39:21,844] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00003b78] [2019-09-15 09:39:21,844] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003b78] [2019-09-15 09:39:21,844] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00003b78] [2019-09-15 09:39:22,041] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00003b78] [2019-09-15 09:39:22,041] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00003b78] [2019-09-15 09:39:22,153] - loaded entity-script:Account(1).
+ DEBUG root [0x00003b78] [2019-09-15 09:39:22,154] - loaded entity-script:Room(3).
+ DEBUG root [0x00003b78] [2019-09-15 09:39:22,155] - loaded entity-script:Food(4).
+ DEBUG root [0x00003b78] [2019-09-15 09:39:22,155] - loaded entity-script:Smash(5).
+  INFO root [0x00003b78] [2019-09-15 09:39:22,156] - TelnetServer server is running on port 50000
+  INFO root [0x00003b78] [2019-09-15 09:39:22,612] - ---- cellapp is running ----
+ DEBUG root [0x00003b78] [2019-09-15 09:39:22,616] - Components::process(): Request for the process of identity...
+  WARN root [0x00003b78] [2019-09-15 09:39:28,723] - EntityApp::checkTickPeriod: tick took 6111% (6.11 seconds)!
+  INFO root [0x00003b78] [2019-09-15 09:39:29,813] - Components::findComponents: find logger(1)...
+  INFO root [0x00003b78] [2019-09-15 09:39:29,887] - Components::findComponents: found logger, addr:192.168.56.1:56414
+  INFO root [0x00003b78] [2019-09-15 09:39:29,887] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00003b78] [2019-09-15 09:39:29,887] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003b78] [2019-09-15 09:39:29,889] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00003b78] [2019-09-15 09:39:29,991] - Components::findComponents: found dbmgr, addr:192.168.56.1:56415
+  INFO root [0x00003b78] [2019-09-15 09:39:29,991] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00003b78] [2019-09-15 09:39:29,992] - Components::addComponent[dbmgr], uid=2082, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003b78] [2019-09-15 09:39:29,992] - Components::findComponents: found dbmgr, addr:192.168.56.1:56415
+  WARN root [0x00003b78] [2019-09-15 09:39:30,993] - Forwarding logs to logger[192.168.56.1:56414/0/0/0]...
+ ERROR root [0x00003b78] [2019-09-15 09:41:20,652] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=180306510661, lastReceivedTime=180305471499, inactivityExceptionPeriod=134887628)
+  INFO root [0x00003b78] [2019-09-15 09:41:20,660] - The following logs sent to logger failed:
+  WARN root [0x00003b78] [2019-09-15 09:41:20,660] - ==> [2019-09-15 09:41:20 646] TCPPacketReceiver::processPendingEvents(192.168.56.1:56414): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003b78] [2019-09-15 09:41:20,661] - ==> [2019-09-15 09:41:20 653] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=180306510661, lastReceivedTime=180305471499, inactivityExceptionPeriod=134887628)
+  WARN root [0x00003b78] [2019-09-15 09:41:20,768] - TCPPacketReceiver::processPendingEvents(192.168.56.1:56415): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003b78] [2019-09-15 09:41:20,770] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=180306778263, lastReceivedTime=180305537259, inactivityExceptionPeriod=134887628)
+  INFO root [0x00003b78] [2019-09-15 09:41:20,782] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00003b78] [2019-09-15 09:41:20,794] - Shutdowner::onShutdown: shutting down
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,803] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,805] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,808] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,809] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,819] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,823] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,829] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,830] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,836] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,838] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,842] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,843] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,846] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,847] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,850] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,852] - NameError: name 'room' is not defined
+  INFO root [0x00003b78] [2019-09-15 09:41:20,853] - Shutdowner::onShutdownEnd: shutting down
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,862] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,863] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,865] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,869] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,872] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,873] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,875] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,876] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,895] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,897] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,905] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,907] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,912] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,922] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,927] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,928] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,930] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,931] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,937] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,938] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,940] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,941] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,943] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,945] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,947] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,951] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,956] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,958] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,964] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,967] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,979] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,981] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,985] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,988] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,990] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,991] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,993] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:20,994] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,002] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,005] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,007] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,009] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,010] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,012] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,013] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,014] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,020] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,021] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,023] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,025] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,051] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,054] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,059] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,061] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,063] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,064] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,067] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,068] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,070] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,071] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,074] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,074] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,076] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,077] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,078] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,079] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,081] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,088] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,101] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,104] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,129] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,133] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,137] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,140] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,142] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,143] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,145] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,146] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,151] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,153] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,157] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,159] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,160] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,161] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,167] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,168] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,170] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,172] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,190] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,191] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,205] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,206] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,212] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,213] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,216] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,221] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,223] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,224] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,226] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,227] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,229] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,234] - NameError: name 'room' is not defined
+ S_ERR root [0x00003b78] [2019-09-15 09:41:21,238] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,438] - 
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,441] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,443] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,443] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,443] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,472] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56469 )
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,472] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56469, SOMAXCONN=5.
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,472] - server-configs:
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,472] - 	gameUpdateHertz : 10
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,473] - 	defaultViewRadius : 80
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,473] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,473] - 	entryScriptFile : kbemain
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,473] - 	internalTcpAddr : 192.168.56.1:56469
+  INFO root [0x00003c2c] [2019-09-15 09:43:02,473] - 	componentID : 8001
+  WARN root [0x00003c2c] [2019-09-15 09:43:02,474] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00003c2c] [2019-09-15 09:43:03,979] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 16116 ----
+  INFO root [0x00003c2c] [2019-09-15 09:43:03,980] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00003c2c] [2019-09-15 09:43:03,980] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003c2c] [2019-09-15 09:43:03,981] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00003c2c] [2019-09-15 09:43:04,177] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00003c2c] [2019-09-15 09:43:04,177] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00003c2c] [2019-09-15 09:43:04,307] - loaded entity-script:Account(1).
+ DEBUG root [0x00003c2c] [2019-09-15 09:43:04,309] - loaded entity-script:Room(3).
+ DEBUG root [0x00003c2c] [2019-09-15 09:43:04,309] - loaded entity-script:Food(4).
+ DEBUG root [0x00003c2c] [2019-09-15 09:43:04,310] - loaded entity-script:Smash(5).
+  INFO root [0x00003c2c] [2019-09-15 09:43:04,310] - TelnetServer server is running on port 50000
+  INFO root [0x00003c2c] [2019-09-15 09:43:04,816] - ---- cellapp is running ----
+ DEBUG root [0x00003c2c] [2019-09-15 09:43:04,826] - Components::process(): Request for the process of identity...
+  WARN root [0x00003c2c] [2019-09-15 09:43:10,976] - EntityApp::checkTickPeriod: tick took 6160% (6.16 seconds)!
+  INFO root [0x00003c2c] [2019-09-15 09:43:12,016] - Components::findComponents: find logger(1)...
+  INFO root [0x00003c2c] [2019-09-15 09:43:12,049] - Components::findComponents: found logger, addr:192.168.56.1:56468
+  INFO root [0x00003c2c] [2019-09-15 09:43:12,049] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00003c2c] [2019-09-15 09:43:12,049] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003c2c] [2019-09-15 09:43:12,051] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00003c2c] [2019-09-15 09:43:12,153] - Components::findComponents: found dbmgr, addr:192.168.56.1:56463
+  INFO root [0x00003c2c] [2019-09-15 09:43:12,153] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00003c2c] [2019-09-15 09:43:12,153] - Components::addComponent[dbmgr], uid=2082, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003c2c] [2019-09-15 09:43:12,153] - Components::findComponents: found dbmgr, addr:192.168.56.1:56463
+  WARN root [0x00003c2c] [2019-09-15 09:43:13,154] - EntityApp::checkTickPeriod: tick took 1236% (1.24 seconds)!
+  WARN root [0x00003c2c] [2019-09-15 09:43:13,155] - Forwarding logs to logger[192.168.56.1:56468/0/0/0]...
+ ERROR root [0x00003c2c] [2019-09-15 09:46:06,514] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=180949699983, lastReceivedTime=180940576340, inactivityExceptionPeriod=134887740)
+  INFO root [0x00003c2c] [2019-09-15 09:46:06,522] - The following logs sent to logger failed:
+  WARN root [0x00003c2c] [2019-09-15 09:46:06,522] - ==> [2019-09-15 09:46:06 512] TCPPacketReceiver::processPendingEvents(192.168.56.1:56468): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003c2c] [2019-09-15 09:46:06,523] - ==> [2019-09-15 09:46:06 514] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=180949699983, lastReceivedTime=180940576340, inactivityExceptionPeriod=134887740)
+  WARN root [0x00003c2c] [2019-09-15 09:46:06,616] - TCPPacketReceiver::processPendingEvents(192.168.56.1:56463): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003c2c] [2019-09-15 09:46:06,618] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=180949935548, lastReceivedTime=180940359003, inactivityExceptionPeriod=134887740)
+  INFO root [0x00003c2c] [2019-09-15 09:46:06,623] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00003c2c] [2019-09-15 09:46:06,626] - Shutdowner::onShutdown: shutting down
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,630] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,644] - NameError: name 'room' is not defined
+  INFO root [0x00003c2c] [2019-09-15 09:46:06,686] - Shutdowner::onShutdownEnd: shutting down
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,737] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,740] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,753] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,754] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,756] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,761] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,763] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,764] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,767] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,768] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,771] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,772] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,774] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,775] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,777] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,778] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,781] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,783] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,821] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,823] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,825] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,827] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,829] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,830] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,834] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,835] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,838] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,839] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,846] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,847] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,851] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,852] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,855] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,857] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,859] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,860] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,863] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,865] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,907] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,910] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,912] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,913] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,915] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,916] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,919] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,920] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,923] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,924] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,926] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,927] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,931] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,933] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,935] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,939] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,944] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,944] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,947] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,949] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,990] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,992] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,995] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,996] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,998] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:06,999] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,003] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,004] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,007] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,008] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,011] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,012] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,017] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,018] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,020] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,022] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,025] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,026] - NameError: name 'room' is not defined
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,028] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00003c2c] [2019-09-15 09:46:07,029] - NameError: name 'room' is not defined
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,575] - 
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,579] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,580] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,580] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,580] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,619] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56516 )
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,619] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56516, SOMAXCONN=5.
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,619] - server-configs:
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,619] - 	gameUpdateHertz : 10
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,619] - 	defaultViewRadius : 80
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,619] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,620] - 	entryScriptFile : kbemain
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,620] - 	internalTcpAddr : 192.168.56.1:56516
+  INFO root [0x00002ac4] [2019-09-15 09:50:50,620] - 	componentID : 8001
+  WARN root [0x00002ac4] [2019-09-15 09:50:50,627] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00002ac4] [2019-09-15 09:50:52,150] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 10864 ----
+  INFO root [0x00002ac4] [2019-09-15 09:50:52,151] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00002ac4] [2019-09-15 09:50:52,151] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002ac4] [2019-09-15 09:50:52,152] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002ac4] [2019-09-15 09:50:52,353] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00002ac4] [2019-09-15 09:50:52,353] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002ac4] [2019-09-15 09:50:52,467] - loaded entity-script:Account(1).
+ DEBUG root [0x00002ac4] [2019-09-15 09:50:52,469] - loaded entity-script:Room(3).
+ DEBUG root [0x00002ac4] [2019-09-15 09:50:52,469] - loaded entity-script:Food(4).
+ DEBUG root [0x00002ac4] [2019-09-15 09:50:52,470] - loaded entity-script:Smash(5).
+  INFO root [0x00002ac4] [2019-09-15 09:50:52,470] - TelnetServer server is running on port 50000
+  INFO root [0x00002ac4] [2019-09-15 09:50:52,903] - ---- cellapp is running ----
+ DEBUG root [0x00002ac4] [2019-09-15 09:50:52,904] - Components::process(): Request for the process of identity...
+  WARN root [0x00002ac4] [2019-09-15 09:50:59,033] - EntityApp::checkTickPeriod: tick took 6130% (6.13 seconds)!
+  INFO root [0x00002ac4] [2019-09-15 09:51:00,104] - Components::findComponents: find logger(1)...
+  INFO root [0x00002ac4] [2019-09-15 09:51:00,149] - Components::findComponents: found logger, addr:192.168.56.1:56511
+  INFO root [0x00002ac4] [2019-09-15 09:51:00,149] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00002ac4] [2019-09-15 09:51:00,149] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002ac4] [2019-09-15 09:51:00,153] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00002ac4] [2019-09-15 09:51:00,254] - Components::findComponents: found dbmgr, addr:192.168.56.1:56517
+  INFO root [0x00002ac4] [2019-09-15 09:51:00,255] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00002ac4] [2019-09-15 09:51:00,255] - Components::addComponent[dbmgr], uid=2082, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002ac4] [2019-09-15 09:51:00,255] - Components::findComponents: found dbmgr, addr:192.168.56.1:56517
+  WARN root [0x00002ac4] [2019-09-15 09:51:01,257] - EntityApp::checkTickPeriod: tick took 1253% (1.25 seconds)!
+  WARN root [0x00002ac4] [2019-09-15 09:51:01,258] - Forwarding logs to logger[192.168.56.1:56511/0/0/0]...
+ ERROR root [0x00002ac4] [2019-09-15 09:52:16,578] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=181782344992, lastReceivedTime=181723639090, inactivityExceptionPeriod=134887197)
+  INFO root [0x00002ac4] [2019-09-15 09:52:16,582] - The following logs sent to logger failed:
+  WARN root [0x00002ac4] [2019-09-15 09:52:16,583] - ==> [2019-09-15 09:52:16 576] TCPPacketReceiver::processPendingEvents(192.168.56.1:56511): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002ac4] [2019-09-15 09:52:16,583] - ==> [2019-09-15 09:52:16 578] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=181782344992, lastReceivedTime=181723639090, inactivityExceptionPeriod=134887197)
+  WARN root [0x00002ac4] [2019-09-15 09:52:16,680] - TCPPacketReceiver::processPendingEvents(192.168.56.1:56517): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002ac4] [2019-09-15 09:52:16,690] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=181782597978, lastReceivedTime=181769462101, inactivityExceptionPeriod=134887197)
+  INFO root [0x00002ac4] [2019-09-15 09:52:16,707] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002ac4] [2019-09-15 09:52:16,714] - Shutdowner::onShutdown: shutting down
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,722] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,723] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,725] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,727] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,739] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,740] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,754] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,755] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,759] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,760] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,764] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,766] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,773] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,774] - NameError: name 'room' is not defined
+  INFO root [0x00002ac4] [2019-09-15 09:52:16,776] - Shutdowner::onShutdownEnd: shutting down
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,807] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,808] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,810] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,811] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,812] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,813] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,819] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,823] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,825] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,826] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,827] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,828] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,830] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,832] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,837] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,839] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,841] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,842] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,844] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,845] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,853] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,854] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,858] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,859] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,873] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,875] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,877] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,877] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,879] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,880] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,887] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,888] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,890] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,892] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,894] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,895] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,898] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,899] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,902] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,903] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,905] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,906] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,940] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,942] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,944] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,945] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,947] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,948] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,953] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,954] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,956] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,957] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,958] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,959] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,960] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,961] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,965] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,967] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:16,999] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,004] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,007] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,008] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,010] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,011] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,013] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,014] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,017] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,022] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,025] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,026] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,028] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,029] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,032] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,038] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,040] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,041] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,071] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,073] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,076] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,077] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,079] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,080] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,085] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,087] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,090] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,091] - NameError: name 'room' is not defined
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,092] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00002ac4] [2019-09-15 09:52:17,093] - NameError: name 'room' is not defined
+  INFO root [0x00000ef8] [2019-09-15 09:57:54,987] - 
+  INFO root [0x00000ef8] [2019-09-15 09:57:54,993] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000ef8] [2019-09-15 09:57:54,994] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00000ef8] [2019-09-15 09:57:54,994] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x00000ef8] [2019-09-15 09:57:54,994] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00000ef8] [2019-09-15 09:57:55,027] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56554 )
+  INFO root [0x00000ef8] [2019-09-15 09:57:55,027] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56554, SOMAXCONN=5.
+  INFO root [0x00000ef8] [2019-09-15 09:57:55,027] - server-configs:
+  INFO root [0x00000ef8] [2019-09-15 09:57:55,028] - 	gameUpdateHertz : 10
+  INFO root [0x00000ef8] [2019-09-15 09:57:55,028] - 	defaultViewRadius : 80
+  INFO root [0x00000ef8] [2019-09-15 09:57:55,028] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00000ef8] [2019-09-15 09:57:55,028] - 	entryScriptFile : kbemain
+  INFO root [0x00000ef8] [2019-09-15 09:57:55,028] - 	internalTcpAddr : 192.168.56.1:56554
+  INFO root [0x00000ef8] [2019-09-15 09:57:55,028] - 	componentID : 8001
+  WARN root [0x00000ef8] [2019-09-15 09:57:55,039] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x00000ef8] [2019-09-15 09:57:56,545] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 8304 ----
+  INFO root [0x00000ef8] [2019-09-15 09:57:56,546] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x00000ef8] [2019-09-15 09:57:56,546] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000ef8] [2019-09-15 09:57:56,547] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00000ef8] [2019-09-15 09:57:56,748] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x00000ef8] [2019-09-15 09:57:56,749] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000ef8] [2019-09-15 09:57:56,878] - loaded entity-script:Account(1).
+ DEBUG root [0x00000ef8] [2019-09-15 09:57:56,880] - loaded entity-script:Room(3).
+ DEBUG root [0x00000ef8] [2019-09-15 09:57:56,880] - loaded entity-script:Food(4).
+ DEBUG root [0x00000ef8] [2019-09-15 09:57:56,880] - loaded entity-script:Smash(5).
+  INFO root [0x00000ef8] [2019-09-15 09:57:56,881] - TelnetServer server is running on port 50000
+  INFO root [0x00000ef8] [2019-09-15 09:57:57,348] - ---- cellapp is running ----
+ DEBUG root [0x00000ef8] [2019-09-15 09:57:57,356] - Components::process(): Request for the process of identity...
+  WARN root [0x00000ef8] [2019-09-15 09:58:03,493] - EntityApp::checkTickPeriod: tick took 6145% (6.14 seconds)!
+  INFO root [0x00000ef8] [2019-09-15 09:58:04,509] - Components::findComponents: find logger(1)...
+  INFO root [0x00000ef8] [2019-09-15 09:58:04,581] - Components::findComponents: found logger, addr:192.168.56.1:56557
+  INFO root [0x00000ef8] [2019-09-15 09:58:04,581] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00000ef8] [2019-09-15 09:58:04,581] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000ef8] [2019-09-15 09:58:04,583] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00000ef8] [2019-09-15 09:58:04,686] - Components::findComponents: found dbmgr, addr:192.168.56.1:56552
+  INFO root [0x00000ef8] [2019-09-15 09:58:04,686] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x00000ef8] [2019-09-15 09:58:04,686] - Components::addComponent[dbmgr], uid=2082, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000ef8] [2019-09-15 09:58:04,692] - Components::findComponents: found dbmgr, addr:192.168.56.1:56552
+  WARN root [0x00000ef8] [2019-09-15 09:58:05,693] - Forwarding logs to logger[192.168.56.1:56557/0/0/0]...
+ ERROR root [0x00000ef8] [2019-09-15 10:01:53,382] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=183080154139, lastReceivedTime=183016454625, inactivityExceptionPeriod=134887325)
+  INFO root [0x00000ef8] [2019-09-15 10:01:53,386] - The following logs sent to logger failed:
+  WARN root [0x00000ef8] [2019-09-15 10:01:53,387] - ==> [2019-09-15 10:01:53 379] TCPPacketReceiver::processPendingEvents(192.168.56.1:56557): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000ef8] [2019-09-15 10:01:53,387] - ==> [2019-09-15 10:01:53 382] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=183080154139, lastReceivedTime=183016454625, inactivityExceptionPeriod=134887325)
+  WARN root [0x00000ef8] [2019-09-15 10:01:53,488] - TCPPacketReceiver::processPendingEvents(192.168.56.1:56552): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000ef8] [2019-09-15 10:01:53,488] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=183080395358, lastReceivedTime=183016071476, inactivityExceptionPeriod=134887325)
+  INFO root [0x00000ef8] [2019-09-15 10:01:53,491] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00000ef8] [2019-09-15 10:01:53,491] - Shutdowner::onShutdown: shutting down
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,494] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,498] - NameError: name 'room' is not defined
+  INFO root [0x00000ef8] [2019-09-15 10:01:53,574] - Shutdowner::onShutdownEnd: shutting down
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,631] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,633] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,644] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,646] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,647] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,648] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,653] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,656] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,658] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,660] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,662] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,663] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,665] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,666] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,671] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,673] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,675] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,676] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,678] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,679] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,691] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,693] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,721] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,723] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,726] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,727] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,730] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,731] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,736] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,737] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,743] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,744] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,746] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,747] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,749] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,750] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,756] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,759] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,761] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,762] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,764] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,765] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,769] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,771] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,774] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,775] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,780] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,781] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,796] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,798] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,805] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,806] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,826] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,828] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,844] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,845] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,848] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,849] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,852] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,854] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,858] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,860] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,863] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,864] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,866] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,867] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,871] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,872] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,874] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,877] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,878] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,879] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,881] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,882] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,900] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,905] - NameError: name 'room' is not defined
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,928] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x00000ef8] [2019-09-15 10:01:53,930] - NameError: name 'room' is not defined
+  INFO root [0x000023b8] [2019-09-15 10:04:33,789] - 
+  INFO root [0x000023b8] [2019-09-15 10:04:33,797] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000023b8] [2019-09-15 10:04:33,799] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000023b8] [2019-09-15 10:04:33,799] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x000023b8] [2019-09-15 10:04:33,799] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000023b8] [2019-09-15 10:04:33,825] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56596 )
+  INFO root [0x000023b8] [2019-09-15 10:04:33,825] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56596, SOMAXCONN=5.
+  INFO root [0x000023b8] [2019-09-15 10:04:33,825] - server-configs:
+  INFO root [0x000023b8] [2019-09-15 10:04:33,825] - 	gameUpdateHertz : 10
+  INFO root [0x000023b8] [2019-09-15 10:04:33,825] - 	defaultViewRadius : 80
+  INFO root [0x000023b8] [2019-09-15 10:04:33,826] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000023b8] [2019-09-15 10:04:33,826] - 	entryScriptFile : kbemain
+  INFO root [0x000023b8] [2019-09-15 10:04:33,826] - 	internalTcpAddr : 192.168.56.1:56596
+  INFO root [0x000023b8] [2019-09-15 10:04:33,826] - 	componentID : 8001
+  WARN root [0x000023b8] [2019-09-15 10:04:33,828] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  WARN root [0x000023b8] [2019-09-15 10:04:34,170] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20201, errorno=10048
+  INFO root [0x000023b8] [2019-09-15 10:04:34,174] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 1236 ----
+  INFO root [0x000023b8] [2019-09-15 10:04:34,175] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000023b8] [2019-09-15 10:04:34,175] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000023b8] [2019-09-15 10:04:34,175] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000023b8] [2019-09-15 10:04:34,418] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000023b8] [2019-09-15 10:04:34,418] - Script::install(): KBExtra is successfully!
+ S_ERR root [0x000023b8] [2019-09-15 10:04:34,541] -   File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Account.py", line 26
+    self.playerLayer+=self.playerMass/
+                                     ^
+SyntaxError: invalid syntax
+ ERROR root [0x000023b8] [2019-09-15 10:04:34,601] - app::initialize(): initialization failed!
+ DEBUG root [0x000023b8] [2019-09-15 10:04:34,642] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000023b8] [2019-09-15 10:04:34,643] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000023b8] [2019-09-15 10:04:34,655] - Script::uninstall(): is successfully!
+ DEBUG root [0x000023b8] [2019-09-15 10:04:34,655] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000023b8] [2019-09-15 10:04:34,956] - ThreadPool::destroy(): waiting for thread(2)[0x2315098,0x23152a0,], try=1
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,357] - TPThread::~TPThread(): 0x2315098
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,357] - TPThread::~TPThread(): 0x23152a0
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,357] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,357] - Bundle::destroyObjPool(): size 1.
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,357] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,358] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,358] - UDPPacket::destroyObjPool(): size 15.
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,358] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,358] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,358] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x000023b8] [2019-09-15 10:04:35,358] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x000023b8] [2019-09-15 10:04:41,862] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x000031b4] [2019-09-15 10:05:46,172] - 
+  INFO root [0x000031b4] [2019-09-15 10:05:46,182] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000031b4] [2019-09-15 10:05:46,183] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000031b4] [2019-09-15 10:05:46,183] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x000031b4] [2019-09-15 10:05:46,183] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000031b4] [2019-09-15 10:05:46,227] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56606 )
+  INFO root [0x000031b4] [2019-09-15 10:05:46,227] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56606, SOMAXCONN=5.
+  INFO root [0x000031b4] [2019-09-15 10:05:46,227] - server-configs:
+  INFO root [0x000031b4] [2019-09-15 10:05:46,227] - 	gameUpdateHertz : 10
+  INFO root [0x000031b4] [2019-09-15 10:05:46,228] - 	defaultViewRadius : 80
+  INFO root [0x000031b4] [2019-09-15 10:05:46,228] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000031b4] [2019-09-15 10:05:46,228] - 	entryScriptFile : kbemain
+  INFO root [0x000031b4] [2019-09-15 10:05:46,228] - 	internalTcpAddr : 192.168.56.1:56606
+  INFO root [0x000031b4] [2019-09-15 10:05:46,228] - 	componentID : 8001
+  WARN root [0x000031b4] [2019-09-15 10:05:46,235] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x000031b4] [2019-09-15 10:05:47,750] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 8600 ----
+  INFO root [0x000031b4] [2019-09-15 10:05:47,750] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000031b4] [2019-09-15 10:05:47,751] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000031b4] [2019-09-15 10:05:47,751] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000031b4] [2019-09-15 10:05:47,949] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000031b4] [2019-09-15 10:05:47,949] - Script::install(): KBExtra is successfully!
+ S_ERR root [0x000031b4] [2019-09-15 10:05:48,027] -   File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Account.py", line 26
+    self.playerLayer+=self.playerMass/
+                                     ^
+SyntaxError: invalid syntax
+ ERROR root [0x000031b4] [2019-09-15 10:05:48,028] - app::initialize(): initialization failed!
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,028] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,028] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000031b4] [2019-09-15 10:05:48,038] - Script::uninstall(): is successfully!
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,038] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000031b4] [2019-09-15 10:05:48,338] - ThreadPool::destroy(): waiting for thread(2)[0xa250d8,0xa25890,], try=1
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,740] - TPThread::~TPThread(): 0xa250d8
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,740] - TPThread::~TPThread(): 0xa25890
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,740] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,740] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,741] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,741] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,741] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,741] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,741] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,741] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x000031b4] [2019-09-15 10:05:48,742] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x000031b4] [2019-09-15 10:05:55,244] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x000027a8] [2019-09-15 10:06:00,339] - 
+  INFO root [0x000027a8] [2019-09-15 10:06:00,340] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000027a8] [2019-09-15 10:06:00,341] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000027a8] [2019-09-15 10:06:00,342] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x000027a8] [2019-09-15 10:06:00,342] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000027a8] [2019-09-15 10:06:00,360] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56623 )
+  INFO root [0x000027a8] [2019-09-15 10:06:00,361] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56623, SOMAXCONN=5.
+  INFO root [0x000027a8] [2019-09-15 10:06:00,361] - server-configs:
+  INFO root [0x000027a8] [2019-09-15 10:06:00,361] - 	gameUpdateHertz : 10
+  INFO root [0x000027a8] [2019-09-15 10:06:00,361] - 	defaultViewRadius : 80
+  INFO root [0x000027a8] [2019-09-15 10:06:00,361] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000027a8] [2019-09-15 10:06:00,361] - 	entryScriptFile : kbemain
+  INFO root [0x000027a8] [2019-09-15 10:06:00,361] - 	internalTcpAddr : 192.168.56.1:56623
+  INFO root [0x000027a8] [2019-09-15 10:06:00,361] - 	componentID : 8001
+  WARN root [0x000027a8] [2019-09-15 10:06:00,363] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x000027a8] [2019-09-15 10:06:01,868] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 10476 ----
+  INFO root [0x000027a8] [2019-09-15 10:06:01,868] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000027a8] [2019-09-15 10:06:01,869] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000027a8] [2019-09-15 10:06:01,869] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000027a8] [2019-09-15 10:06:02,071] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000027a8] [2019-09-15 10:06:02,071] - Script::install(): KBExtra is successfully!
+ S_ERR root [0x000027a8] [2019-09-15 10:06:02,154] -   File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Account.py", line 26
+    self.playerLayer+=self.playerMass/
+                                     ^
+SyntaxError: invalid syntax
+ ERROR root [0x000027a8] [2019-09-15 10:06:02,155] - app::initialize(): initialization failed!
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,155] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,156] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000027a8] [2019-09-15 10:06:02,174] - Script::uninstall(): is successfully!
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,174] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000027a8] [2019-09-15 10:06:02,475] - ThreadPool::destroy(): waiting for thread(2)[0x238ee30,0x238eb58,], try=1
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,876] - TPThread::~TPThread(): 0x238ee30
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,876] - TPThread::~TPThread(): 0x238eb58
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,876] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,877] - Bundle::destroyObjPool(): size 2.
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,877] - Channel::destroyObjPool(): size 0.
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,877] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,877] - UDPPacket::destroyObjPool(): size 14.
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,877] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,877] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,877] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x000027a8] [2019-09-15 10:06:02,878] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x000027a8] [2019-09-15 10:06:09,381] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [0x0000191c] [2019-09-15 10:06:28,710] - 
+  INFO root [0x0000191c] [2019-09-15 10:06:28,710] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000191c] [2019-09-15 10:06:28,712] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x0000191c] [2019-09-15 10:06:28,712] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x0000191c] [2019-09-15 10:06:28,712] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x0000191c] [2019-09-15 10:06:28,771] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56632 )
+  INFO root [0x0000191c] [2019-09-15 10:06:28,772] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56632, SOMAXCONN=5.
+  INFO root [0x0000191c] [2019-09-15 10:06:28,772] - server-configs:
+  INFO root [0x0000191c] [2019-09-15 10:06:28,772] - 	gameUpdateHertz : 10
+  INFO root [0x0000191c] [2019-09-15 10:06:28,772] - 	defaultViewRadius : 80
+  INFO root [0x0000191c] [2019-09-15 10:06:28,772] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000191c] [2019-09-15 10:06:28,772] - 	entryScriptFile : kbemain
+  INFO root [0x0000191c] [2019-09-15 10:06:28,772] - 	internalTcpAddr : 192.168.56.1:56632
+  INFO root [0x0000191c] [2019-09-15 10:06:28,773] - 	componentID : 8001
+  WARN root [0x0000191c] [2019-09-15 10:06:28,773] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  INFO root [0x0000191c] [2019-09-15 10:06:30,291] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 9356 ----
+  INFO root [0x0000191c] [2019-09-15 10:06:30,292] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x0000191c] [2019-09-15 10:06:30,292] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000191c] [2019-09-15 10:06:30,293] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000191c] [2019-09-15 10:06:30,491] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x0000191c] [2019-09-15 10:06:30,491] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x0000191c] [2019-09-15 10:06:30,601] - loaded entity-script:Account(1).
+ DEBUG root [0x0000191c] [2019-09-15 10:06:30,603] - loaded entity-script:Room(3).
+ DEBUG root [0x0000191c] [2019-09-15 10:06:30,603] - loaded entity-script:Food(4).
+ DEBUG root [0x0000191c] [2019-09-15 10:06:30,603] - loaded entity-script:Smash(5).
+  INFO root [0x0000191c] [2019-09-15 10:06:30,604] - TelnetServer server is running on port 50000
+  INFO root [0x0000191c] [2019-09-15 10:06:31,022] - ---- cellapp is running ----
+ DEBUG root [0x0000191c] [2019-09-15 10:06:31,023] - Components::process(): Request for the process of identity...
+  WARN root [0x0000191c] [2019-09-15 10:06:37,153] - EntityApp::checkTickPeriod: tick took 6131% (6.13 seconds)!
+  INFO root [0x0000191c] [2019-09-15 10:06:38,223] - Components::findComponents: find logger(1)...
+  INFO root [0x0000191c] [2019-09-15 10:06:38,326] - Components::findComponents: found logger, addr:192.168.56.1:56631
+  INFO root [0x0000191c] [2019-09-15 10:06:38,326] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x0000191c] [2019-09-15 10:06:38,327] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000191c] [2019-09-15 10:06:38,328] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x0000191c] [2019-09-15 10:06:38,431] - Components::findComponents: found dbmgr, addr:192.168.56.1:56636
+  INFO root [0x0000191c] [2019-09-15 10:06:38,431] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x0000191c] [2019-09-15 10:06:38,431] - Components::addComponent[dbmgr], uid=2082, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000191c] [2019-09-15 10:06:38,432] - Components::findComponents: found dbmgr, addr:192.168.56.1:56636
+  WARN root [0x0000191c] [2019-09-15 10:06:39,432] - EntityApp::checkTickPeriod: tick took 1308% (1.31 seconds)!
+  WARN root [0x0000191c] [2019-09-15 10:06:39,433] - Forwarding logs to logger[192.168.56.1:56631/0/0/0]...
+ ERROR root [0x0000191c] [2019-09-15 10:09:18,663] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=184082036786, lastReceivedTime=184037126518, inactivityExceptionPeriod=134887197)
+  INFO root [0x0000191c] [2019-09-15 10:09:18,666] - The following logs sent to logger failed:
+  WARN root [0x0000191c] [2019-09-15 10:09:18,666] - ==> [2019-09-15 10:09:18 661] TCPPacketReceiver::processPendingEvents(192.168.56.1:56631): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000191c] [2019-09-15 10:09:18,667] - ==> [2019-09-15 10:09:18 663] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=184082036786, lastReceivedTime=184037126518, inactivityExceptionPeriod=134887197)
+  WARN root [0x0000191c] [2019-09-15 10:09:18,776] - TCPPacketReceiver::processPendingEvents(192.168.56.1:56636): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000191c] [2019-09-15 10:09:18,779] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=184082300268, lastReceivedTime=184037386189, inactivityExceptionPeriod=134887197)
+  INFO root [0x0000191c] [2019-09-15 10:09:18,803] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000191c] [2019-09-15 10:09:18,805] - Shutdowner::onShutdown: shutting down
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,815] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,816] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,819] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,824] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,848] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,851] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,865] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,866] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,875] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,876] - NameError: name 'room' is not defined
+  INFO root [0x0000191c] [2019-09-15 10:09:18,879] - Shutdowner::onShutdownEnd: shutting down
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,914] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,916] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,930] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,931] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,944] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,946] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,950] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,952] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,967] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,970] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,974] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,975] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,977] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,979] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,980] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,981] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,983] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,984] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,992] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,994] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,996] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:18,997] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,000] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,006] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,008] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,010] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,013] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,014] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,033] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,037] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,066] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,068] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,076] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,078] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,080] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,081] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,082] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,083] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,088] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,091] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,094] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,095] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,096] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,097] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,099] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,101] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,108] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,111] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,129] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,131] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,166] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,169] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,177] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,178] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,179] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,181] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,182] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,184] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,191] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,192] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,195] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,196] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,197] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,199] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,205] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,205] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,214] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,215] - NameError: name 'room' is not defined
+ S_ERR root [0x0000191c] [2019-09-15 10:09:19,257] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+  INFO root [0x000037fc] [2019-09-15 10:23:15,087] - 
+  INFO root [0x000037fc] [2019-09-15 10:23:15,107] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000037fc] [2019-09-15 10:23:15,108] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000037fc] [2019-09-15 10:23:15,108] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/BattleOfBalls_assets/;D:/kbengine/BattleOfBalls_assets/scripts/;D:/kbengine/BattleOfBalls_assets/res/
+  INFO root [0x000037fc] [2019-09-15 10:23:15,108] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000037fc] [2019-09-15 10:23:15,145] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:56680 )
+  INFO root [0x000037fc] [2019-09-15 10:23:15,145] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:56680, SOMAXCONN=5.
+  INFO root [0x000037fc] [2019-09-15 10:23:15,146] - server-configs:
+  INFO root [0x000037fc] [2019-09-15 10:23:15,146] - 	gameUpdateHertz : 10
+  INFO root [0x000037fc] [2019-09-15 10:23:15,146] - 	defaultViewRadius : 80
+  INFO root [0x000037fc] [2019-09-15 10:23:15,146] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000037fc] [2019-09-15 10:23:15,146] - 	entryScriptFile : kbemain
+  INFO root [0x000037fc] [2019-09-15 10:23:15,146] - 	internalTcpAddr : 192.168.56.1:56680
+  INFO root [0x000037fc] [2019-09-15 10:23:15,146] - 	componentID : 8001
+  WARN root [0x000037fc] [2019-09-15 10:23:15,151] - invalid UID(0) <= 0, please check UID for environment! automatically set to 2082.
+  WARN root [0x000037fc] [2019-09-15 10:23:15,553] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20970, errorno=10048
+  INFO root [0x000037fc] [2019-09-15 10:23:15,558] - ---- cellapp Version: 2.4.5. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: C9FCABE153AC3D64A8F240810ADA666D. Config: Debug X86. Built: 09:56:57 May  8 2019. AppID: 8001. UID: 2082. PID: 15856 ----
+  INFO root [0x000037fc] [2019-09-15 10:23:15,558] - Server error_name: Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz with 2097151kB RAM
+  INFO root [0x000037fc] [2019-09-15 10:23:15,559] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000037fc] [2019-09-15 10:23:15,559] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000037fc] [2019-09-15 10:23:15,765] - Script::install(): is successfully, Python=(3.7.3 (default, May  8 2019, 09:53:38) [MSC v.1916 32 bit (Intel)])!
+  INFO root [0x000037fc] [2019-09-15 10:23:15,765] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000037fc] [2019-09-15 10:23:15,897] - loaded entity-script:Account(1).
+ DEBUG root [0x000037fc] [2019-09-15 10:23:15,899] - loaded entity-script:Room(3).
+ DEBUG root [0x000037fc] [2019-09-15 10:23:15,899] - loaded entity-script:Food(4).
+ DEBUG root [0x000037fc] [2019-09-15 10:23:15,899] - loaded entity-script:Smash(5).
+  INFO root [0x000037fc] [2019-09-15 10:23:15,900] - TelnetServer server is running on port 50000
+  INFO root [0x000037fc] [2019-09-15 10:23:16,338] - ---- cellapp is running ----
+ DEBUG root [0x000037fc] [2019-09-15 10:23:16,339] - Components::process(): Request for the process of identity...
+  WARN root [0x000037fc] [2019-09-15 10:23:22,507] - EntityApp::checkTickPeriod: tick took 6168% (6.17 seconds)!
+  INFO root [0x000037fc] [2019-09-15 10:23:23,519] - Components::findComponents: find logger(1)...
+  INFO root [0x000037fc] [2019-09-15 10:23:23,580] - Components::findComponents: found logger, addr:192.168.56.1:56678
+  INFO root [0x000037fc] [2019-09-15 10:23:23,581] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x000037fc] [2019-09-15 10:23:23,581] - Components::addComponent[logger], uid=2082, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000037fc] [2019-09-15 10:23:23,583] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x000037fc] [2019-09-15 10:23:23,685] - Components::findComponents: found dbmgr, addr:192.168.56.1:56682
+  INFO root [0x000037fc] [2019-09-15 10:23:23,685] - Components::addComponent: reset orderLog, uid=2082!
+  INFO root [0x000037fc] [2019-09-15 10:23:23,685] - Components::addComponent[dbmgr], uid=2082, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000037fc] [2019-09-15 10:23:23,685] - Components::findComponents: found dbmgr, addr:192.168.56.1:56682
+  WARN root [0x000037fc] [2019-09-15 10:23:24,685] - Forwarding logs to logger[192.168.56.1:56678/0/0/0]...
+ ERROR root [0x000037fc] [2019-09-15 10:25:35,376] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=186279643654, lastReceivedTime=186234047871, inactivityExceptionPeriod=134887085)
+  INFO root [0x000037fc] [2019-09-15 10:25:35,379] - The following logs sent to logger failed:
+  WARN root [0x000037fc] [2019-09-15 10:25:35,380] - ==> [2019-09-15 10:25:35 369] TCPPacketReceiver::processPendingEvents(192.168.56.1:56678): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000037fc] [2019-09-15 10:25:35,380] - ==> [2019-09-15 10:25:35 377] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=186279643654, lastReceivedTime=186234047871, inactivityExceptionPeriod=134887085)
+  WARN root [0x000037fc] [2019-09-15 10:25:35,481] - TCPPacketReceiver::processPendingEvents(192.168.56.1:56682): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000037fc] [2019-09-15 10:25:35,482] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=186279883403, lastReceivedTime=186249121572, inactivityExceptionPeriod=134887085)
+  INFO root [0x000037fc] [2019-09-15 10:25:35,489] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000037fc] [2019-09-15 10:25:35,491] - Shutdowner::onShutdown: shutting down
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,494] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,497] - NameError: name 'room' is not defined
+  INFO root [0x000037fc] [2019-09-15 10:25:35,527] - Shutdowner::onShutdownEnd: shutting down
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,551] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,552] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,565] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,567] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,568] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,569] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,575] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,576] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,578] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,579] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,580] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,581] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,582] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,583] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,585] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,586] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,592] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,593] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,594] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,595] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,607] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,611] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,633] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,633] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,635] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,635] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,637] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,640] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,643] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,644] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,645] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,646] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,648] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,648] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,650] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,650] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,651] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,652] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,656] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,658] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,659] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,660] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,680] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,681] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,698] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,699] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,703] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,708] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,710] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,711] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,713] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,714] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,715] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,718] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,725] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,726] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,728] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,729] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,730] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,731] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,733] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,733] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,769] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,774] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,776] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,777] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,778] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,779] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,780] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,781] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,783] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,784] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,785] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,789] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,793] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,794] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,796] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,797] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,799] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,800] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,833] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,834] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,846] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,847] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,849] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,850] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,851] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,852] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,857] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,857] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,859] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,860] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,862] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,862] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,864] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,864] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,866] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,867] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,868] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,868] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,912] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,913] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,915] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,916] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,917] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,919] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,925] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,926] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,928] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,929] - NameError: name 'room' is not defined
+ S_ERR root [0x000037fc] [2019-09-15 10:25:35,931] - Traceback (most recent call last):
+  File "D:/kbengine/BattleOfBalls_assets/scripts/cell\Smash.py", line 12, in onDestroy
+    room.onSmashDestroy(self.id)

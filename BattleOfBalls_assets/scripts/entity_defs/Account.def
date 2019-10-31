@@ -1,0 +1,159 @@
+<root>
+	<Properties>
+    <!--实体类型-->
+    <entityType>
+      <Type>   INT16    </Type>
+      <Flags>  CELL_PUBLIC    </Flags>
+      <Default>     0     </Default>
+    </entityType>
+    
+    <!--预制体类型-->
+    <modelType>
+      <Type>   INT32      </Type>
+      <Flags>  ALL_CLIENTS    </Flags>
+      <Default>     0     </Default>
+    </modelType>
+    
+    <!--玩家昵称-->
+    <playerNameBase>
+      <Type>    UNICODE   </Type>
+      <Flags>   BASE_AND_CLIENT   </Flags>
+      <Persistent>    true    </Persistent>
+    </playerNameBase>
+    
+    <playerName>
+      <Type>    UNICODE   </Type>
+      <Flags>   ALL_CLIENTS   </Flags>
+      <Persistent>    true  </Persistent>
+    </playerName>
+    
+    <!--玩家ID-->
+    <playerID>
+      <Type>    UINT16    </Type>
+      <Flags>   BASE_AND_CLIENT   </Flags>
+      <Persistent>    true    </Persistent>
+      <Default>   0     </Default>
+    </playerID>
+    
+  
+    <!--玩家经验值-->
+    <playerExp>
+      <Type>    INT64   </Type>
+      <Flags>   BASE_AND_CLIENT   </Flags>
+      <Persistent>    true    </Persistent>
+      <Default>   0   </Default>
+    </playerExp>
+    
+    <!--玩家状态-->
+    <playerState>
+      <Type>    INT32   </Type>
+      <Flags>   ALL_CLIENTS   </Flags>
+      <Default>   1   </Default>
+    </playerState>
+    
+    <!--玩家大小-->
+    <playerScale>
+      <Type>    FLOAT   </Type>
+      <Flags>   ALL_CLIENTS </Flags>
+      <Default>   1.0       </Default>
+    </playerScale>
+    
+    <!--玩家质量-->
+    <playerMass>
+      <Type>    INT32    </Type>
+      <Flags>   ALL_CLIENTS   </Flags>
+      <Default> 1     </Default>
+    </playerMass>
+    
+    <!--玩家移动速度-->
+    <playerSpeed>
+      <Type>    FLOAT    </Type>
+      <Flags>   ALL_CLIENTS   </Flags>
+      <Default>   8.0   </Default>
+    </playerSpeed>
+    
+    <!--显示优先级-->
+    <playerLayer>
+      <Type>    INT32   </Type>
+      <Flags>   ALL_CLIENTS   </Flags>
+      <Default>   1    </Default>
+    </playerLayer>
+    
+	</Properties>
+
+	<ClientMethods>
+    <!--玩家death-->
+    <playerDead>
+      <Arg>   ENTITYCALL     </Arg>
+    </playerDead>
+  
+    <!--玩家复活-->
+    <playerAlive>
+      <Arg>   ENTITYCALL    </Arg>
+    </playerAlive>
+    
+    <!--游戏结束-->
+    <playerGameOver>
+    </playerGameOver>
+	</ClientMethods>
+
+	<BaseMethods>
+    <!--更新玩家昵称-->
+    <updatePlayerName>
+      <Arg>   UNICODE   </Arg>
+      <Exposed/>
+    </updatePlayerName>
+    
+    <!--更新玩家经验值-->
+    <updatePlayerExp>
+      <Arg>   UINT16    </Arg>
+      <Exposed/>
+    </updatePlayerExp>
+    
+    <!--更新玩家modelType-->
+    <updateModelType>
+      <Arg>     INT32   </Arg>
+    </updateModelType>
+    
+    <!--进入个人竞技模式-->
+    <playIndiviGame>
+      <Exposed/>
+    </playIndiviGame>
+    
+    <!--进入大逃杀模式-->
+    <playBattleGame>
+      <Exposed/>
+    </playBattleGame>
+    
+    <!--进入团队模式-->
+    <playTeamGame>
+      <Exposed/>
+    </playTeamGame>
+    
+    <!--创建玩家cell实体-->
+    <createPlayerCell>
+      <Arg>   ENTITYCALL    </Arg>
+    </createPlayerCell>
+    <!--玩家离开房间-->
+    <playerLeaveRoom>
+      <Exposed/>
+    </playerLeaveRoom>
+    
+    
+
+	</BaseMethods>
+
+	<CellMethods>
+    
+    <!--返回实体类型-->
+    <returnType>
+    </returnType>
+    
+    <!--更新实体状态-->
+    <updatePlayerState>
+      <Arg>   INT32   </Arg>
+    </updatePlayerState>
+    
+	</CellMethods>
+
+</root>
